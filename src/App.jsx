@@ -6,8 +6,8 @@ const projects = [
     name: 'Laundrykan',
     category: 'Full-Stack Application',
     description:
-      'Platform layanan laundry dengan alur pemesanan, pengelolaan pesanan, wallet, dan integrasi pembayaran Midtrans Sandbox.',
-    stack: ['Laravel', 'PHP', 'MySQL', 'Midtrans'],
+  'Full-stack laundry service management platform featuring role-based access for customers, laundry owners, and administrators. Includes order management, digital wallet, Midtrans Snap Sandbox integration, refunds, and automated testing.',
+    stack: ['Laravel 13', 'PHP', 'MySQL / SQLite', 'Midtrans Sandbox'],
     featured: true,
     link: 'https://github.com/willi121718/Laundrykan',
     label: 'REAL APPLICATION PREVIEW',
@@ -29,9 +29,9 @@ const projects = [
 
 const skills = [
   { number: '01', title: 'Backend', tools: 'PHP / Laravel / REST API' },
-  { number: '02', title: 'Database', tools: 'MySQL / SQL / Migrations' },
+  { number: '02', title: 'Database', tools: 'MySQL / SQLite / SQL / Migrations' },
   { number: '03', title: 'Frontend', tools: 'HTML / CSS / JavaScript / React' },
-  { number: '04', title: 'Engineering', tools: 'Git / Postman / Testing' },
+  { number: '04', title: 'Engineering', tools: 'Git / GitHub / Postman / PHPUnit / API Testing' },
 ]
 
 function Arrow({ diagonal = false }) {
@@ -200,10 +200,11 @@ function App() {
               <span> Saya membangun solusi yang punya tujuan.</span>
             </h2>
             <p className="about-description">
-              Dengan latar belakang S1 Sistem Informasi dan D3 Manajemen
-              Informatika, saya mengembangkan kemampuan full-stack melalui
-              proyek nyata. Saya tertarik pada bagaimana frontend, backend,
-              database, dan API bekerja bersama menjadi satu sistem.
+                  Dengan latar belakang S1 Sistem Informasi dan D3 Manajemen
+                  Informatika, saya mengembangkan kemampuan Full-Stack Development
+                  melalui proyek nyata. Saya berfokus membangun aplikasi web
+                  menggunakan Laravel, PHP, database, dan REST API, termasuk
+                  integrasi autentikasi serta sistem pembayaran.
             </p>
           </div>
 
@@ -336,13 +337,11 @@ function App() {
             di bidang pengembangan web.
           </p>
           <a
-            className="button button-lime"
-            href="https://github.com/willi121718"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Find me on GitHub <Arrow diagonal />
-          </a>
+  className="button button-lime"
+  href="mailto:willifebrian121718@gmail.com"
+>
+  Email Me <Arrow diagonal />
+              </a>
         </section>
       </main>
 
